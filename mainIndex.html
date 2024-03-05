@@ -35,16 +35,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- DataTable Responsive CSS -->
-  <link rel="stylesheet" href="assets/js/DataTableResponsive/responsive.dataTables.min.css">
-  <link rel="stylesheet" href="assets/js/DataTableResponsive/responsive.jqueryui.min.css">
-
   <!-- Template Main CSS File -->
   <!-- <link rel="stylesheet" href="assets/css/style2.css"> -->
-  <link href="assets/css/style2.css" rel="stylesheet">
-
-  <!-- DataTables Links -->
-  <link rel="stylesheet" href="dataTables.dataTables.min.css">
+  <link href="assets/css/style.css" rel="stylesheet">
   
 </head>
 
@@ -54,9 +47,22 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <img src="assets/img/logo.png" alt="" class="img-fluid">
-        <h1>رنگ سکتور اتحادیه</h1>
+        <img id="navbarLogo" alt="" class="img-fluid">
+        <h1 id="companyNavName"></h1>
       </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto fs-5" href="#about">زمونږ په اړه</a></li>
+          <li><a class="nav-link scrollto fs-5" href="#testimonials">مشتریان</a></li>
+          <li><a class="nav-link scrollto fs-5" href="#services">تولیدات</a></li>
+          <li><a class="nav-link scrollto fs-5" href="#team">ټیم</a></li>
+          <li><a class="nav-link scrollto fs-5" href="#pricing">نرخونه</a></li>
+          <li><a class="nav-link scrollto fs-5" href="#contact">اړیکه</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
     </div>
   </header><!-- End Header -->
 
@@ -80,13 +86,13 @@
         <div class="col-12 hero-text-image">
           <div class="row">
             <div class="col-lg-8 text-center text-lg-end">
-              <h1 data-aos="fade-right">د افغانستان د رنگ اتحادیی سکتور عمومی منبع ته ښه راغلاست</h1>
+              <h1 id="mainLargeText" data-aos="fade-right"></h1>
               <p class="mb-2" data-aos="fade-right" data-aos-delay="100">له کره او وروستیو معلوماتو سره له مونږ سره ووسی</p>
               <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500">د رنګین افغانستان په لور</p>
             </div>
             <div class="col-lg-4 iphone-wrap align-items-center">
-              <img src="assets/img/nalwal/bucket-1.png" alt="Image" class="phone-1" data-aos="fade-right">
-              <img src="assets/img/nalwal/bucket-2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
+              <img id="bucket1" alt="Image" class="phone-1" data-aos="fade-right">
+              <img id="bucket2" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
             </div>
           </div>
         </div>
@@ -102,65 +108,127 @@
 
         <div class="section-title">
           <h2>زمونږ په اړه</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. </p>
         </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
+        <p class="fs-5" id="aboutUs" dir="rtl"></p>
 
       </div>
     </section><!-- End About Section -->
 
-    <section id="companies" class="companies">
-      <div class="container"  data-aos="fade-up">
+    <!-- ======= About Video Section ======= -->
+    <section id="about-video" class="about-video section-bg">
+        <div class="container" data-aos="fade-up">
+    
+            <div class="row justify-content-around" dir="rtl">
+    
+            <div class="col-lg-4 col-md-6 col-sm-7 video-box align-self-center" data-aos="fade-right" data-aos-delay="100">
+                <img id="ownerImage" class="img-fluid" alt="">
+            </div>
+    
+            <div class="col-lg-6 pt-3 pt-lg-0 content text-lg-end text-md-center" data-aos="fade-left" data-aos-delay="100">
+                <h3 id="ownerName"></h3>
+                <p class="fs-5" id="ownerDetail" dir="rtl"></p>
+            </div>
+    
+            </div>
+    
+        </div>
+        </section>
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>شرکتونه</h2>
-          <p>زمونږ د شرکت معلوماتو ته لاسرسی ولری </p>
+          <h2>برنډونه</h2>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-7" dir="rtl">
-            <!-- All companies datatables -->
-            <table id="myTable" class="display">
-              <thead>
-                  <tr>
-                      <th>شرکت نوم</th>
-                      <th>ریس شرکت</th>
-                      <th>شماره تماس</th>
-                      <th>بریښنا لیک</th>
-                  </tr>
-              </thead>
-              <tbody>
-                
-              </tbody>
-              
-            </table>
-          </div>
+        <div class="row" id="brands">
         </div>
 
       </div>
     </section>
 
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container"  data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>خـــدمــــات</h2>
+          <p class="fs-5" id="serviceText"></p>
+        </div>
+
+        <div class="row justify-content-center" id="productList">
+        </div>
+
+      </div>
+    </section><!-- End Sevices Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container"  data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>مــشتــریان</h2>
+          <p class="fs-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper"  data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper" id="customersList">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>زمونږ ټیم</h2>
+          <p class="fs-5" id="teamText"></p>
+        </div>
+
+        <div class="row justify-content-center" id="teamMembers">
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container"  data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>اړیکــــه او پتــــه</h2>
+        </div>
+
+        <div class="info">
+            <div class="row">
+                <div class="col address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Address:</h4>
+                    <p id="address"></p>
+                  </div>
+    
+                <div class="col email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p id="companyEmail"></p>
+                </div>
+
+                <div class="col phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Phone & Whatsapp:</h4>
+                    <p id="companyPhone"></p>
+                </div>
+            </div>
+
+          </div>
+
+      </div>
+    </section>
   </main>
 
   <!-- ======= Footer ======= -->
@@ -196,6 +264,11 @@
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+
 <!-- <script src="jquery-3.3.1.slim.min.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
 <!-- <script src="jquery-3.7.1.js"></script> -->
@@ -203,17 +276,6 @@
 <!-- <script src="popper.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
-
-<script src="dataTables.min.js"></script>
-
-<!-- Datatable Responsive JS file -->
-<script src="assets/js/DataTableResponsive/dataTables.responsive.min.js"></script>
-<script src="assets/js/DataTableResponsive/responsive.jqueryui.min.js"></script>
-
-<!-- Created File for All data -->
-<script src="mainJS.js"></script>
+<script src="detail.js"></script>
 
 </html>

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Sahibzada Paint Industry",
+        "designColor": ["linear-gradient(to right, rgba(64, 153, 104, 0.8) 0%, rgba(95, 220, 151, 0.8) 100%), url(assets/img/hero-bg.jpg)", "rgba(64, 153, 104, 0.8)", "#f8fefc", "#f3fdf7", "green", "#c0f5d8", "green"],
+        "companyNavbar": ["assets/img/logo.png" , "نال وال صاحبزاده"],
+        "mainLargeText": "نال وال صاحبزاده د تعمیراتی رنګونو تولیدی فابریکه",
+        "bucketImages": ["assets/img/nalwal/bucket-1.png", "assets/img/nalwal/bucket-2.png"],
+        "aboutUs": ["  نال وال صاحبزاده تولیدی فابریکه چی هیواد مو د اقتصادی بحران او ستونزو سره لاس او ګریوان وه په کال 2003 کـــابل ولایت کې تاسیس شو، نال وال صاحبـــزاده د رنګ صنعت کې یو مشــهور لوبغاړی دی، د خپل پراخ محصولاتو لړۍ سره متنوع برخو ته اړتیا لري.  کیفیت او نوښــت ته زموږ ژمنتیا په بازار کې د باور وړ نوم په توګه زموږ دریځ پیاوړی کړی.  د لوړ پوړ محصولاتو وړاندې کولو تمرکز سره، موږ په بریالیــتوب سره د ځان لپاره یو ځای جوړ کړی دی.په ناوال صاحبــزاده کې، موږ نه یوازې د لوړ کیفیت رنګونو په چمتو کولو ویاړو بلکې د کارمــوندنې په برخه کې د پام وړ مرسته کــونکي په توګه هم ویاړو.  زموږ عملیاتو د لسګونو خلکو لپاره د کار فرصتونه رامینځــته کړي، اقتصادي وده او د ټولنې پرمخــتګ ته وده ورکړي.د غوره والي لپاره د لیوالتیا لخوا پرمخ وړل شوي ، موږ د خپلو پیرودونکو متحرک اړتیاو سره وده او تطابق ته دوام ورکوو.  که دا د کورونو لپاره متحــرک رنګونه وي، د صنعت لپاره دوامدار پوښونه، یا د مختلفو غوښتنلیکونو لپاره ځانګړي حلونه، نوال صاحبزاده ستاسو د ټولو انځور کولو اړتیاوو لپاره د باور وړ ملــګري په توګه ولاړ دی.  د نهال صاحبزاده سره د کیفیت، نوښت، او ټولنیز مســؤلیت کامل ترکیب تجربه کړئ - هغه نوم چې تاسو یې د رنګونو نړۍ کې بــاور کولی شئ."],
+        "ownerDetail": ["عبـــدالمطــلب صــاحبــــزاده", "عبدالمطلب صاحبزاده د عبدالقدیر ځوی د عبدالحی لمسی په کال ۱۹۵۵ میلادی کال چی د ۱۳۲۰ لمریز کال سره سمون خوری د ننګـــرهار ولایت دره نور ولسوالی د نال په کلی کی په غریبانه کورنی کی نړی ته سترګی وغړولی.  لومــړنی زده کړی یی د کلی په ابتدایه ښوونځی کی ترسره کړی. وروسته له کورنی جګړو له هیواد څخه مهاجر شو. له وطنه لری رنګ سکتور سره اشنایی پیدا کړه او نوموړی سکتور کی کاروبار پیل کړ. په کال ۲۰۰۳ کی میلادی کال کی سکتور دغه بخش هیواد ته انتقال کړ. چی موجوده وخت کی هیواد کی پراخه کچه تولیدات لری.", "assets/img/nalwal/nalwalOwner.png"],
+        "brands": ["assets/img/clients/nalwal/client-1.png", "assets/img/clients/nalwal/client-2.png", "assets/img/clients/nalwal/client-3.png", "assets/img/clients/nalwal/client-4.png", "assets/img/clients/nalwal/client-5.png", "assets/img/clients/nalwal/client-6.png"],
+        "customers": [["نال وال صاحبزاده تولیدی فابریکه چـی په ستندر معیار سره د رنګ تولید لری له ورستیو کلونو څخه زه مشتری په توګه پاتی یم", "assets/img/testimonials/testimonials-1.jpg", "صادق صدیق", "مشتری"], ["هیواد سمت شمال چی د هیواد ‌پر نفوس ولایتونو څخه دی نال وال صاحبزاده تولیدی فابریکه د مشتریانو توجو ځانته ته ګرځولی او په دغه بخش کی پام وړ توزیع توزیع شمال طرف ته لری", "assets/img/testimonials/testimonials-2.jpg", "غریب الله راسخ", "توزیع کوونکی"], ["Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.", "assets/img/testimonials/testimonials-3.jpg", "رازق داد", "مشتری"], ["Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.", "assets/img/testimonials/testimonials-4.jpg", "الهام الله", "توزیع کوونکی"], ["Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.", "assets/img/testimonials/testimonials-5.jpg", "فریدالله", "قراردای"]],
+        "products": [["bi bi-paint-bucket", "پلاســـتیکی رنـــګ", "مونــږ په مختــلفو کیفیتونو سره ۷۵٪ فیصده رنــګونو تولیدات لرو کوم چی ستاسو کور داخلی برخی ته ښکلا وربښــی", "icon-box iconbox-blue"], ["bi bi-brush", "ویدرشــیټ رنــګ", "مونږ تاسو ته د ویډرشیټ ښــه کیفیت ژمنه درکو. زمونږ د ویدرشــیټ رنګونــو تولیــد په واسطه خپل د کــورونو بیرونی چوکاټ ته ښکلا ورکړی", "icon-box iconbox-pink"], ["bi bi-bucket", "روغــنی رنګ", "فلزی او لرګینو چوکاټونو رنګ ښکلا زمونږ د روغــنی رنګونــو د مختــلفو کیفیتونو په تولیداتو سره تجربه کړی.", "icon-box iconbox-orange"]],
+        "serviceText": "نــال وال صــاحبزاده د رنګونــو تولــیدی فابریکه د رنګ سکتور بخش کی په اعلی او ښه کیفیت په درلودلو سره هیوادوالو ته مختلف ډولونو سره تولیدات وړاندی کوی",
+        "teamText": "نال وال صاحبزاده د تعمیراتی رنګونو تولیدی فابریکه د قوی او باتجربه ټیم په درلودو سره د هیواد او هیوادوالو په چوپړ کی دی",
+        "members": [["assets/img/team/team-1.jpg", "", "", "", "", "Hashir Sahibzada", "معاون"], ["assets/img/team/team-2.jpg", "", "", "", "", "Farhad", "کارمند"], ["assets/img/team/team-3.jpg", "", "", "", "", "Naseem", "کارمند"], ["assets/img/team/team-4.jpg", "", "", "", "", "Ahmad Zahir Sahibzada", "CTO"]],
+        "contentInfo": ["پــل سفیـــد، قلعچـــه، دان چمن، کـــابل، افغانــستـــان \n سرچوک، جـــاده، کــــابل، افغانستـان", "hashirsahil90@gmail.com", "+93-785142434"],
+        "email": "yasirsahibzada90@gmail.com",
+        "phone": "+93-780910073",
+        "owner": "Abdul Mutalib"
+    },
+    {
+        "name": "Zaref Paint Industry",
+        "companyNavbar": "سید ظریف",
+        "mainLargeText": "سید ظریف د تعمیراتی رنګونو تولیدی فابریکه",
+        "bucketImages": ["assets/img/zaref/bucket-1.png", "assets/img/zaref/bucket-2.png"],
+        "ownerDetail": ["سید ظریف شریفی", ".عبدالمطلب صاحبزاده د عبدالقدیر ځوی د عبدالحی لمسی په کال ۱۹۵۵ میلادی کال چی د ۱۳۲۰ لمریز کال سره سمون خوری د ننګـــرهار ولایت دره نور ولسوالی د نال په کلی کی په غریبانه کورنی کی نړی ته سترګی وغړولی.  لومــړنی زده کړی یی د کلی په ابتدایه ښوونځی کی ترسره کړی. وروسته له کورنی جګړو له هیواد څخه مهاجر شو. له وطنه لری رنګ سکتور سره اشنایی پیدا کړه او نوموړی سکتور کی کاروبار پیل کړ. په کال ۲۰۰۳ کی میلادی کال کی سکتور دغه بخش هیواد ته انتقال کړ. چی موجوده وخت کی هیواد کی پراخه کچه تولیدات لری", "assets/img/nalwal/nalwalOwner.png"],
+        "email": "saidzaref2022@gmail.com",
+        "phone": "+93-799704493",
+        "owner": "Said Zaref Sharifi"
+    }
+]
