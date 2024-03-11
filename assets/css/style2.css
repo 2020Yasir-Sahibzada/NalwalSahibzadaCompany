@@ -265,17 +265,15 @@ h6,
   }
 }
 
-.hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
   position: absolute;
-  top: -50%;
+  top: -20%;
   overflow: hidden;
   left: 0;
 }
 
 @media screen and (max-width: 992px) {
 
-  .hero-section .iphone-wrap .phone-2,
   .hero-section .iphone-wrap .phone-1 {
     position: relative;
     top: 0;
@@ -283,15 +281,8 @@ h6,
   }
 }
 
-.hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
-  width: 250px;
-}
-
-@media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-1 {
-    margin-left: 150px;
-  }
+  width: 450px;
 }
 
 @media screen and (max-width: 430px) {
@@ -299,24 +290,6 @@ h6,
     margin-left: -100px;
   }
 }
-
-
-.hero-section .iphone-wrap .phone-2 {
-  margin-top: 50px;
-  margin-left: 100px;
-  width: 250px;
-}
-
-@media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-2 {
-    width: 250px;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 100px;
-  }
-}
-
-
 
 /*--------------------------------------------------------------
 # Sections General
